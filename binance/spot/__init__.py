@@ -219,6 +219,9 @@ class Spot(API):
     from binance.spot.bswap import bswap_pool_configure
     from binance.spot.bswap import bswap_add_liquidity_preview
     from binance.spot.bswap import bswap_remove_liquidity_preview
+    from binance.spot.bswap import bswap_unclaimed_rewards
+    from binance.spot.bswap import bswap_claim_rewards
+    from binance.spot.bswap import bswap_claimed_history
 
     # FIAT
     from binance.spot.fiat import fiat_order_history
